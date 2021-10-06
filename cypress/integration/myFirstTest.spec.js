@@ -71,7 +71,7 @@ context('My First Test', () => {
   })
 
   it('renders the correct h1 text', () => {
-    cy.get('h1').should('contain.text', 'Kitchen Sink')
+    cy.get('h1').should('contain.text', 'Actions')
   })
 
   it('renders a paragraph under the h1', () => {
